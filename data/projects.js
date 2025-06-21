@@ -45,19 +45,19 @@ export const slidesData = [
 
 export const projects = [
   {
-    src: "/assets/img/photos/pp10.jpg",
+    src: "/assets/img/photos/home project 1.jpg",
     alt: "image 1",
     width: 900,
     height: 650,
   },
   {
-    src: "/assets/img/photos/pp11.jpg",
+    src: "/assets/img/photos/home project 2.jpg",
     alt: "image 2",
     width: 900,
     height: 650,
   },
   {
-    src: "/assets/img/photos/pp12.jpg",
+    src: "/assets/img/photos/home project 3.jpg",
     alt: "image 3",
     width: 900,
     height: 650,

@@ -26,7 +26,7 @@ export default function Process() {
             alt="image"
             width={575}
             height={550}
-            src="/assets/img/photos/about9.jpg"
+            src="/assets/img/photos/how it works webhive.jpg"
           />
         </figure>
       </div>

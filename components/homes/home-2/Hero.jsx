@@ -30,7 +30,7 @@ export default function Hero() {
             alt="image"
             width={575}
             height={550}
-            src="/assets/img/photos/about7.jpg"
+            src="/assets/img/photos/hero image webhive.jpg"
           />
         </figure>
       </div>
