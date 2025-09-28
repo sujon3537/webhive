@@ -7,6 +7,7 @@ import {
   blogItems,
   demos,
   docsPages,
+  servicePages,
   otherPages,
   projectPages,
 } from "@/data/menu";
@@ -92,7 +93,7 @@ export default function Nav({ color = "#fab758" }) {
           Services
         </a>
         <ul className="dropdown-menu">
-          {otherPages.map((item) => (
+          {servicePages.map((item) => (
             <li
               key={item.id}
               className={`dropdown ${

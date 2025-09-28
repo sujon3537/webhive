@@ -16,10 +16,6 @@ export default function ServicesPage1() {
   return (
     <>
       <div className="grow shrink-0">
-        <Header32
-          parentClass="relative wrapper bg-soft-primary !bg-[#edf2fc]"
-          navClass="navbar navbar-expand-lg center-nav transparent navbar-light"
-        />
         <section className="wrapper !bg-[#edf2fc]">
           <div className="container pt-10 pb-36 xl:pt-[4.5rem] lg:pt-[4.5rem] md:pt-[4.5rem] xl:pb-40 lg:pb-40 md:pb-40 !text-center">
             <div className="flex flex-wrap mx-[-15px]">
@@ -45,7 +41,6 @@ export default function ServicesPage1() {
         <Cta />
         <Pricing />
       </div>
-      <Footer5 hasMarginTop={false} />
     </>
   );
 }

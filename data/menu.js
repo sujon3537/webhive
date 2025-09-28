@@ -6,6 +6,348 @@ export const demos = Array.from({ length: 34 }, (_, i) => ({
   alt: `Demo ${i + 1}`,
 }));
 
+export const servicePages = [
+  {
+    id: "digital-marketing",
+    label: "Digital Marketing",
+    links: [
+      { id: "seo", href: "/services", label: "SEO" },
+      {
+        id: "seo-service",
+        href: "/services",
+        label: "SEO Service",
+      },
+      {
+        id: "e-commerce-seo",
+        href: "/services",
+        label: "E-Commerce SEO",
+      },
+      {
+        id: "guest-post-service",
+        href: "/services",
+        label: "Guest Post Service",
+      },
+      {
+        id: "seo-audit-service",
+        href: "/services",
+        label: "SEO Audit Service",
+      },
+      {
+        id: "google-business-profile",
+        href: "/services",
+        label: "Google Business Profile",
+      },
+      {
+        id: "app-store-optimization",
+        href: "/services",
+        label: "App Store Optimization",
+      },
+      {
+        id: "keyword-research-services",
+        href: "/services",
+        label: "Keyword Research Services",
+      },
+      {
+        id: "content-marketing-services",
+        href: "/services",
+        label: "Content Marketing Services",
+      },
+      {
+        id: "link-building-services",
+        href: "/services",
+        label: "Link Building Services",
+      },
+      {
+        id: "local-seo-services",
+        href: "/services",
+        label: "Local SEO Services",
+      },
+      {
+        id: "social-media-marketing",
+        href: "/services",
+        label: "Social Media Marketing",
+      },
+      {
+        id: "search-engine-marketing",
+        href: "/services",
+        label: "Search Engine Marketing",
+      },
+      {
+        id: "video-marketing-services",
+        href: "/services",
+        label: "Video Marketing Services",
+      },
+      {
+        id: "answer-engine-optimization",
+        href: "/services",
+        label: "Answer Engine Optimization (AEO)",
+      },
+      {
+        id: "semantic-seo-service",
+        href: "/services",
+        label: "Semantic SEO Service",
+      },
+      {
+        id: "generative-seo-llm-service",
+        href: "/services",
+        label: "Generative SEO LLM Service",
+      },
+      {
+        id: "online-reputation-management",
+        href: "/services",
+        label: "Online Reputation Management (ORM)",
+      },
+    ],
+  },
+  {
+    id: "media-buying",
+    label: "Media Buying",
+    links: [
+      {
+        id: "facebook-ads-management",
+        href: "/services",
+        label: "Facebook Ads Management",
+      },
+      {
+        id: "google-ads-management",
+        href: "/services",
+        label: "Google Ads Management",
+      },
+      {
+        id: "youtube-ads-management",
+        href: "/services",
+        label: "Youtube Ads Management",
+      },
+      {
+        id: "linkedin-ads-management",
+        href: "/services",
+        label: "Linkedin Ads Management",
+      },
+    ],
+  },
+  {
+    id: "social-media-management",
+    label: "Social Media Management",
+    href: "/services",
+  },
+  {
+    id: "reputation-management",
+    label: "Reputation Management",
+    href: "/services",
+  },
+  {
+    id: "creative-content",
+    label: "Creative Content",
+    links: [
+      {
+        id: "content-writing",
+        href: "/services",
+        label: "Content Writing",
+      },
+      {
+        id: "video-production",
+        href: "/services",
+        label: "Video Production",
+      },
+      {
+        id: "social-media-content",
+        href: "/services",
+        label: "Social Media Content",
+      },
+    ],
+  },
+  {
+    id: "graphics-creative-design",
+    label: "Graphics And Creative Design",
+    links: [
+      {
+        id: "ui-ux-design",
+        href: "/services",
+        label: "UI/UX Design",
+      },
+      {
+        id: "graphic-design",
+        href: "/services",
+        label: "Graphic Design",
+      },
+      {
+        id: "motion-graphics-design",
+        href: "/services",
+        label: "Motion Graphics Design",
+      },
+      {
+        id: "brochure-design-services",
+        href: "/services",
+        label: "Brochure Design Services",
+      },
+      {
+        id: "business-card-design",
+        href: "/services",
+        label: "Business Card Design",
+      },
+      {
+        id: "clipping-path-services",
+        href: "/services",
+        label: "Clipping Path Services",
+      },
+      {
+        id: "flyer-design-services",
+        href: "/services",
+        label: "Flyer Design Services",
+      },
+      {
+        id: "logo-design-services",
+        href: "/services",
+        label: "Logo Design Services",
+      },
+      {
+        id: "social-media-design-services",
+        href: "/services",
+        label: "Social Media Design Services",
+      },
+    ],
+  },
+  {
+    id: "website-development",
+    label: "Website Development",
+    links: [
+      {
+        id: "business-website",
+        href: "/services",
+        label: "Business Website",
+      },
+      {
+        id: "ecommerce-website",
+        href: "/services",
+        label: "eCommerce Website",
+      },
+      {
+        id: "garments-buying-house",
+        href: "/services",
+        label: "Garments Buying House",
+      },
+      {
+        id: "educational-website",
+        href: "/services",
+        label: "Educational Website",
+      },
+      {
+        id: "industrial-website",
+        href: "/services",
+        label: "Industrial Website",
+      },
+      {
+        id: "news-portal-website",
+        href: "/services",
+        label: "News Portal Website",
+      },
+      {
+        id: "personal-website",
+        href: "/services",
+        label: "Personal Website",
+      },
+      {
+        id: "portfolio-website",
+        href: "/services",
+        label: "Portfolio Website",
+      },
+    ],
+  },
+  {
+    id: "writing-services",
+    label: "Writing Services",
+    links: [
+      {
+        id: "blog-writing-services",
+        href: "/services",
+        label: "Blog Writing Services",
+      },
+      {
+        id: "copywriting-services",
+        href: "/services",
+        label: "Copywriting Services",
+      },
+      {
+        id: "press-release-writing",
+        href: "/services",
+        label: "Press Release Writing",
+      },
+      {
+        id: "product-description-writing",
+        href: "/services",
+        label: "Product Description Writing",
+      },
+      {
+        id: "website-content-writing",
+        href: "/services",
+        label: "Website Content Writing",
+      },
+    ],
+  },
+  {
+    id: "software",
+    label: "Software",
+    links: [
+      {
+        id: "erp",
+        href: "/services",
+        label: "ERP",
+      },
+      {
+        id: "e-commerce",
+        href: "/services",
+        label: "E-commerce",
+      },
+      {
+        id: "project-management",
+        href: "/services",
+        label: "Project Management",
+      },
+      {
+        id: "crm",
+        href: "/services",
+        label: "CRM",
+      },
+      {
+        id: "hr-management",
+        href: "/services",
+        label: "HR Management",
+      },
+      {
+        id: "accounting-finance",
+        href: "/services",
+        label: "Accounting & Finance",
+      },
+      {
+        id: "payroll-management",
+        href: "/services",
+        label: "Payroll Management",
+      },
+    ],
+  },
+  {
+    id: "other-services",
+    label: "Other Services",
+    links: [
+      {
+        id: "domain-buying-service",
+        href: "/services",
+        label: "Domain Buying Service",
+      },
+      {
+        id: "web-hosting-service",
+        href: "/services",
+        label: "Web Hosting Service",
+      },
+      {
+        id: "wordpress-maintenance-service",
+        href: "/services",
+        label: "WordPress Maintenance Service",
+      },
+    ],
+  },
+];
+
 export const otherPages = [
   {
     id: "services",
